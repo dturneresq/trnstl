@@ -1,0 +1,8 @@
+data = {
+	'key':		'YOURAPIKEY',
+	'position':	'51.484463,-0.195405'
+};
+
+$.post('http://api.what3words.com/position', data, function(response) {
+	console.log(response);
+});
